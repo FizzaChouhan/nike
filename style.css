@@ -1,0 +1,58 @@
+@font-face {
+    font-family: bebas neue;
+    src: url("fonts/BebasNeue-Regular.ttf");
+}
+@font-face {
+    font-family: roboto;
+    src: url("fonts/Roboto-Black.ttf");
+}
+#one{
+    display: flex;
+    flex-direction: row;
+    background-color: #fff9f4;
+}
+#logo{
+    width: 80px;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+.one{
+    font-family: bebas neue;
+    color: #FF8367;
+    font-size: 30px;
+    justify-content: stretch;
+}
+.two{
+    font-family:roboto, sans-serif;
+    font-weight: 0.5px;
+font-size: 30px;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    justify-content: space-around;
+
+}
+li{
+    display: inline-block;
+    text-align: left;
+    margin-left: 100px;
+
+    
+}
+a{
+    display: inline-block;
+    font-size: 20px;
+    font-family: roboto;
+    color:black ;
+    text-decoration: none;
+    
+}
+#list{
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin-left: ;
+}
